@@ -8,19 +8,15 @@
 # testing
 /coverage
 
-<<<<<<< HEAD
 # next.js
 /.next/
 /out/
 
-=======
->>>>>>> 15d2b4abf82471105d5218a03b93b2b87f55b341
 # production
 /build
 
 # misc
 .DS_Store
-<<<<<<< HEAD
 *.pem
 
 # debug
@@ -29,18 +25,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-=======
->>>>>>> 15d2b4abf82471105d5218a03b93b2b87f55b341
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-<<<<<<< HEAD
 # vercel
 .vercel
-=======
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
->>>>>>> 15d2b4abf82471105d5218a03b93b2b87f55b341

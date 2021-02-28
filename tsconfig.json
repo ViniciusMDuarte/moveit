@@ -8,23 +8,14 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-<<<<<<< HEAD
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-=======
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
->>>>>>> 15d2b4abf82471105d5218a03b93b2b87f55b341
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-<<<<<<< HEAD
     "jsx": "preserve"
   },
   "include": [
@@ -34,12 +25,5 @@
   ],
   "exclude": [
     "node_modules"
-=======
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": [
-    "src"
->>>>>>> 15d2b4abf82471105d5218a03b93b2b87f55b341
   ]
 }
