@@ -24,7 +24,7 @@ export function CountdownProvider({children } : CountdownProviderProps ) {
 
     const {startNewChallenge } = useContext(ChallengesContext);
 
-    const [time, setTime] = useState(0.1 * 60);
+    const [time, setTime] = useState(25 * 60);
     const [isActive, setisActive] = useState(false);
     const [hasFinished, sethasFinished] = useState(false);
     
@@ -38,7 +38,7 @@ export function CountdownProvider({children } : CountdownProviderProps ) {
         clearTimeout(countdownTimeout);
         setisActive(false);
         sethasFinished(false);
-        setTime(0.1 * 60);
+        setTime(25 * 60);
     }
     
     useEffect(() => {
@@ -67,8 +67,4 @@ export function CountdownProvider({children } : CountdownProviderProps ) {
             {children}
         </CountdownContext.Provider>
     )
-}
-
-function countdownTimeout(countdownTimeout: any) {
-    throw new Error("Function not implemented.");
 }
